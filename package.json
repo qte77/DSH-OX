@@ -1,0 +1,14 @@
+{
+  "name": "dsh-ox",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local DeepSeek Harness setup wired to Ox Alpha via OpenRouter, with Claude Code skills ported across",
+  "scripts": {
+    "dsh": "dsh",
+    "web": "dsh web",
+    "web:headless": "dsh web --no-open"
+  },
+  "dependencies": {
+    "@deepseek-ai/dsh": "^0.1.1-rc.2"
+  }
+}

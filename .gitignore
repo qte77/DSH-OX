@@ -1,0 +1,16 @@
+node_modules/
+.env
+
+# DSH runtime state — keep settings.yaml, ignore everything DSH writes.
+dsh-home/*
+!dsh-home/settings.yaml
+!dsh-home/skills/
+dsh-home/.credentials.yaml
+
+# Session data
+.sessions/
+.dsh/sessions/
+
+# Ported skills are generated from claude-code-plugins by `make skills`.
+# Single source of truth stays upstream; `make clean` removes these.
+.dsh/skills/
