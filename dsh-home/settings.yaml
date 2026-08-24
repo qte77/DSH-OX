@@ -1,0 +1,23 @@
+# DSH settings — lives at $DSH_HOME/settings.yaml
+#
+# Schema source: deepseek-harness docs/user/guide/providers.md
+# UNVERIFIED against the installed build (0.1.1-rc.2) — DSH is a developer
+# preview with breaking changes. If DSH rejects this file, delete it and add
+# the provider through the Web UI instead: Settings -> Models -> "Add a custom
+# provider", using the same four values (base URL, protocol, credential, model).
+
+llm-pi-ai:
+  providers:
+    openrouter:
+      apiKeyEnv: OPENROUTER_API_KEY
+      api: openai-completions
+      baseURL: https://openrouter.ai/api/v1
+      models:
+        # Free stealth preview. Anonymous provider; see README "Before you send
+        # a real repo through this" before pointing it at private code.
+        - id: stealth/ox-alpha
+
+        # Non-stealth fallbacks for when the ox-alpha preview window closes.
+        # Uncomment as needed — both are paid.
+        # - id: deepseek/deepseek-chat
+        # - id: anthropic/claude-sonnet-4.5
