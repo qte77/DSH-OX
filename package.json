@@ -2,6 +2,7 @@
   "name": "dsh-ox",
   "version": "0.1.0",
   "private": true,
+  "license": "Apache-2.0",
   "description": "Local DeepSeek Harness setup wired to Ox Alpha via OpenRouter, with Claude Code skills ported across",
   "scripts": {
     "dsh": "dsh",
