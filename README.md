@@ -310,3 +310,7 @@ mechanism DSH's README points at. Genuinely DSH-related entries include
 high-star repos carrying it (`amruthpillai/reactive-resume`, `Molunerfinn/PicGo`,
 `nocobase/nocobase`) are unrelated projects. Star count is not a signal of DSH
 compatibility.
+
+## License
+
+[Apache-2.0](LICENSE).
